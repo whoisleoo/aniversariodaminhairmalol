@@ -146,7 +146,7 @@ const Invite = () => {
               className="text-2xl font-semibold text-black"
               style={{ fontFamily: "Cronde" }}
             >
-              17:00 horas
+              19:00 horas
             </p>
           </div>
 
@@ -162,7 +162,11 @@ const Invite = () => {
         </div>
 
         <div className="w-full h-px bg-red-800 z-10"></div>
-
+        <button className="bg-red-900 text-white w-50 h-15 rounded-2xl font-semibold hover:scale-110 hover:bg-white hover:text-red-900 hover:border hover:border-red-900 hover:transition-all hover:duration-500">
+          <a href="https://wa.me/5542999022171?text=Pode contar com minha presença! 💖">
+            Marcar presença
+          </a>
+        </button>
         <p
           className="text-center text-gray-600 text-xl italic z-10"
           style={{ fontFamily: "padrao" }}
