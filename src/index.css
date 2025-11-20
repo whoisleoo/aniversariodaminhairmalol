@@ -62,7 +62,7 @@ body {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
 }
 
@@ -75,7 +75,7 @@ body {
 }
 
 .animate-floating {
-  animation: floating 3s ease-in-out infinite;
+  animation: floating 5s ease-in-out infinite;
 }
 ::-webkit-scrollbar {
   width: 8px;

@@ -22,7 +22,7 @@ const Home = () => {
           particleSpread={10}
           speed={0.05}
           particleBaseSize={100}
-          moveParticlesOnHover={true}
+          moveParticlesOnHover={false}
           alphaParticles={false}
           disableRotation={false}
         />
@@ -51,12 +51,12 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="flex items-center justify-center z-20">
+      <div className="flex items-center justify-center z-20 ">
         <img
           src="/cartao.png"
           alt="Convite Layla 15 anos"
           onClick={handleClick}
-          className={`max-w-sm w-full cursor-pointer object-contain rounded-lg shadow-2xl animate-floating transition-all duration-5000 ease-in-out ${
+          className={`max-w-sm w-full cursor-pointer object-contain rounded-lg shadow-2xl animate-floating transition-all duration-5000 ease-in-out  border-4 border-red-800 ${
             isTransitioning ? "scale-[3] opacity-0" : "hover:scale-110"
           }`}
         />
